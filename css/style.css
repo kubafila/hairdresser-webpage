@@ -40,7 +40,7 @@ a{
     text-decoration: none;
     color: inherit;
 }
-.wrapper{
+main{
     width: 90vw;
     margin: 0 auto;
 }
@@ -50,6 +50,7 @@ section{
 }
 img{
     max-width: 250px;
+    width: 100%;
 }
 h1{
     margin: 20px 0;

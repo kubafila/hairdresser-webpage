@@ -49,7 +49,7 @@ section{
     text-align: center;
 }
 img{
-    max-width: 250px;
+    max-width: 350px;
     width: 100%;
 }
 h1{
@@ -61,6 +61,13 @@ h2{
     font-size: 32px;
     font-weight: lighter;
     color:var(--color);
+    opacity: 0.85;
+}
+h3{
+    text-align: center;
+    color:var(--color);
+    font-weight: lighter;
+    padding: 5px;
     opacity: 0.85;
 }
 article{
@@ -75,4 +82,30 @@ em{
 footer{
     padding: 10px 0;
     text-align: center;
+}
+
+.round {
+    border: 3px solid var(--color);
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    align-self: center;
+    margin: 15px 0;
+    background-size: cover;
+}
+.members article {
+    display: flex;
+    flex-direction: column;
+}
+
+.member-one{
+    background-image: url(../img/michael-dam-mEZ3PoFGs_k-unsplash.jpg);
+}
+
+.member-two{
+    background-image: url(../img/stefan-stefancik-QXevDflbl8A-unsplash.jpg);
+}
+
+.member-three{
+    background-image: url(../img/hassan-khan-EGVccebWodM-unsplash.jpg);
 }

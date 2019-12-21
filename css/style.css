@@ -138,6 +138,31 @@ img{
 .member-description{
     flex:0 0 100%;
 }
+.contact-details{
+    line-height: 3em;
+}
+.price-number {
+    text-align: center;
+    font-size: 3em;
+}
+.service-name {
+    font-weight: bold;
+}
+.contact-info{
+    font-size: 1.3em;
+}
+/*   MOBILE VIEW   */
+img{
+    max-width: 250px;
+}
+.round{
+    width: 250px;
+    height: 250px;
+    flex: auto auto 100%;
+}
+.member-description{
+    flex:0 0 100%;
+}
 .contact-section{
     justify-content: space-between;
 }

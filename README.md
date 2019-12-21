@@ -2,5 +2,5 @@
 
 ## Introduction
 After my accident (broken elbow) i got back to programming and start with this simple project.
-This is webpage to imagynery hairdresser. I created it to master CSS flexbox.
+This is webpage about hairdresser salon. I created it to practice CSS flexbox.
 

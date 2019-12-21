@@ -35,7 +35,7 @@ nav li{
     padding-bottom: 8px;
 }
 .logo{
-    background-image: url(../img/logo.png);
+    background-image: url("../img/logo.png");
     background-size: contain;
     height: 75px;
     width: 75px;
@@ -105,13 +105,13 @@ footer{
     align-items: center;
 }
 .member-one{
-    background-image: url(../img/face-1.jpg);
+    background-image: url("../img/face-1.jpg");
 }
 .member-two{
-    background-image: url(../img/face-2.jpg);
+    background-image: url("../img/face-2.jpg");
 }
 .member-three{
-    background-image: url(../img/face-3.jpg);
+    background-image: url("../img/face-3.jpg");
 }
 .contact-details{
     line-height: 3em;

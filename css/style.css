@@ -83,6 +83,10 @@ em{
     font-weight: bolder;
     font-style: normal;
 }
+i{
+    color: var(--color);
+    margin-right: 10px;
+}
 footer{
     padding: 10px 0;
     text-align: center;
@@ -112,4 +116,15 @@ footer{
 
 .member-three{
     background-image: url(../img/hassan-khan-EGVccebWodM-unsplash.jpg);
+}
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.contact-info{
+    line-height: 3em;
+    font-size: 1.3em;
 }

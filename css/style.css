@@ -47,10 +47,13 @@ main{
 section{
     font-size: 16px;
     text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
 }
 img{
-    max-width: 350px;
-    width: 100%;
+    display: block;
+    max-width: 250px;
+    margin: 36px auto;
 }
 h1{
     margin: 20px 0;
@@ -62,6 +65,7 @@ h2{
     font-weight: lighter;
     color:var(--color);
     opacity: 0.85;
+    margin-bottom: 16px;
 }
 h3{
     text-align: center;

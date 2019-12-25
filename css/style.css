@@ -105,13 +105,13 @@ footer{
     align-items: center;
 }
 .member-one{
-    background-image: url("../img/face-1.jpg");
+    background-image: url("../img/face-1-small.jpg");
 }
 .member-two{
-    background-image: url("../img/face-2.jpg");
+    background-image: url("../img/face-2-small.jpg");
 }
 .member-three{
-    background-image: url("../img/face-3.jpg");
+    background-image: url("../img/face-3-small.jpg");
 }
 .contact-details{
     line-height: 3em;
@@ -197,6 +197,17 @@ img{
     .member-description {
         flex: 0 0 70%;
     }
+    .member-one {
+        background-image: url("../img/face-1-medium.jpg");
+    }
+
+    .member-two {
+        background-image: url("../img/face-2-medium.jpg");
+    }
+
+    .member-three {
+        background-image: url("../img/face-3-medium.jpg");
+    }
     .contact-section {
         justify-content: space-between;
     }
@@ -211,4 +222,22 @@ img{
         flex: 0 0 20%;
         margin: 20px auto;
     }
+}
+/* Big screen size */
+@media (min-width:1824px) {
+        img {
+            min-width: 1280px;
+        }
+
+        .member-one {
+            background-image: url("../img/face-1.jpg");
+        }
+
+        .member-two {
+            background-image: url("../img/face-2.jpg");
+        }
+
+        .member-three {
+            background-image: url("../img/face-3.jpg");
+        }
 }

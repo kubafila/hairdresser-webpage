@@ -21,7 +21,11 @@
     <main>
         <h1>Fryzjer</h1>
         <section>
-            <img src="img/main-image.jpg" alt="Fryzjerka szusząca głowę" />
+            <picture>
+                <source srcset="img/main-image-small.jpg" media="(min-width:1824px)">
+                <source srcset="img/main-image-medium.jpg" media="(min-width:481px)">
+                <img src="img/main-image.jpg" alt="Fryzjerka szusząca głowę" />
+            </picture>
             <article>
                 <h2>Twoje włosy w naszych rękach!</h2>
                 <p>Jesteśmy młodym i nowoczesnym zakładem fryzjerskim w Warszawie.

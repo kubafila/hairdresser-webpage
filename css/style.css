@@ -18,6 +18,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    overflow-x: hidden;
 }
 nav, footer{
     background-color: var(--color);
@@ -130,7 +131,8 @@ footer{
 .contact-section {
    flex-direction: column;
    justify-content: center;
-   align-items: center;
+   align-items: stretch;
+   margin: 0 20px;
 }
 .contact-details {
     line-height: 3em;
@@ -140,7 +142,6 @@ footer{
 img {
     max-width: 80vw;
 }
-
 .round{
     width: 250px;
     height: 250px;
@@ -151,6 +152,11 @@ img {
 .price-box {
     flex: 0 0 100%;
     margin: 20px auto;
+}
+
+.map iframe{
+    height: 40vh;
+    width: 80vw;
 }
 /* TABLET VIEW */
 @media (min-width:640px) {
@@ -167,6 +173,7 @@ img {
     .member-three {
         background-image: url("../img/face-3-medium.jpg");
     }
+
 }
 /* Desktop view */
 @media (min-width:1024px) {
@@ -203,11 +210,18 @@ img {
     }
     .contact-section {
         flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
     }
-    .map {
-        flex: 0 0 50%;
+    .contact-info{
+        margin-top: 0;
+    }
+    .map iframe {
+        height: 70vh;
+        width: 50vw;
     }
     .contact-info {
-        flex: 0 0 50%;
+        flex: 0 0 40%;
+       
     }
 }

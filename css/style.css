@@ -35,6 +35,10 @@ nav ul{
 nav li{
     padding-bottom: 8px;
 }
+/* Remove padding on menu item*/
+nav li:first-child {
+    padding-bottom: 0px;
+}
 .logo{
     background-image: url("../img/logo.png");
     background-size: contain;
@@ -94,7 +98,7 @@ footer{
     padding: 10px 0;
     text-align: center;
 }
-.homepage-section{
+.homepage-content{
     flex-flow: column nowrap;
 }
 .crew-member{

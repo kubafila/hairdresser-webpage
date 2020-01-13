@@ -22,8 +22,12 @@
     </nav>
     <main>
         <h1>Fryzjer</h1>
-        <section>
-            <img src="img/main-image.jpg" alt="Fryzjerka szusząca głowę" />
+        <section class="homepage-section">
+            <picture>
+                <source srcset="img/main-image.jpg" media="(min-width:1400px)">
+                <source srcset="img/main-image-medium.jpg" media="(min-width:640px)">
+                <img src="img/main-image-small.jpg" alt="Fryzjerka szusząca głowę" />
+            </picture>
             <article>
                 <h2>Twoje włosy w naszych rękach!</h2>
                 <p>Jesteśmy młodym i nowoczesnym zakładem fryzjerskim w Warszawie.
